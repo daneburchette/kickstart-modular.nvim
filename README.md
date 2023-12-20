@@ -39,7 +39,7 @@ Clone kickstart.nvim:
 
 - on Linux
 ```sh
-git clone [https://github.com/nvim-lua/kickstart.nvim.git](https://github.com/daneburchette/kickstart-modular.nvim.git) "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/daneburchette/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ### Post Installation
