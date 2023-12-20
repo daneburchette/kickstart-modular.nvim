@@ -2,11 +2,15 @@
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Add 80 character color column for Python reference
+vim.wo.colorcolumn = "79"
+
 -- Set highlight on search
-vim.o.hlsearch = false
+vim.o.hlsearch = true
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
